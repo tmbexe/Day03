@@ -6,20 +6,20 @@
 /*   By: tmbexe <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 14:10:00 by tmbexe            #+#    #+#             */
-/*   Updated: 2020/06/24 09:43:30 by tmbexe           ###   ########.fr       */
+/*   Updated: 2020/06/24 14:14:09 by tmbexe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
 void ft_ft(int *nbr){ 
-
+		
 	 *nbr = 42;
 } 
 
-int main(){
+/*int main(){
 
 	int nbr;
 
 	ft_ft(&nbr);
 	return 0;
-}
+}*/
