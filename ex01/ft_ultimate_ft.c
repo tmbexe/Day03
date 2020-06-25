@@ -6,36 +6,12 @@
 /*   By: tmbexe <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 09:46:19 by tmbexe            #+#    #+#             */
-/*   Updated: 2020/06/24 16:02:03 by tmbexe           ###   ########.fr       */
+/*   Updated: 2020/06/25 09:30:31 by tmbexe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
 void ft_ultimate_ft(int *********nbr){
-
-	int i;
-	int	*a;
-	int	**b;
-	int	***c;
-	int	****d;
-	int	*****e;
-	int	******f;
-    int	*******g;
-	int	********k;
-
-	i = 42;
-	a = &i;
-	b = &a;
-	c = &b;
-	d = &c;
-	e = &d;
-	f = &e;
-	g = &f;
-	k = &g;
-	nbr = &k;	
+	*********nbr = 42;
 }
-
-//int main(){
-
-//}
